@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tax Calculator</title>
+    <script src="tax-calculator.js"></script>
+    <link rel="stylesheet" href="tax-calculator.css">
+</head>
+<body>
+    <div class="data-form-container">
+        <form id="depositInformation">
+            <div class="tax-rate">
+                <label for="tax-Rate">Tax Rate</label>
+                <input type="number" id="taxRate">
+            </div>
+
+            <div class="location-code">
+                <label for="location-code">Location Code</label>
+                <input type="number" id="locationCode">
+            </div>
+
+            <div class="payment-amount">
+                <label for="payment-amount">Payment Amount</label>
+                <input type="number" id="paymentAmount">
+            </div>
+
+            <button type="submit"> Calculate Taxes </button>
+        </form>
+    </div>
+    <div class="deposit-submission-container">
+        <ul id="depositList">
+
+        </ul>
+    </div>
+</body>
+</html>
