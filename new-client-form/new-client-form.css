@@ -3,27 +3,20 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 20vw;
+    width: 50vw;
     padding: 20px;
     font-family: Arial;
     background-color: white;
     filter: drop-shadow(1px 1px 5px lightgrey);
     border-radius: 10px;
 }
+
 input {
     padding: 5px;
     margin: 10px;
-    width: 150px;
-    font-family: Arial;
-    color: lightgrey;
-}
-
-p {
-    font-family: Arial;
     width: 20vw;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    font-family: Arial;
+    color: black;
 }
 
 button {
