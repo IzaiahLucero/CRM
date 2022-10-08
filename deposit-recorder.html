@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Income Tracker</title>
+    <script src="deposit-recorder.js"></script>
+    <script src="location-codes-and-tax-rates.js"></script>
+    <link rel="stylesheet" href="deposit-recorder.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Record Deposit</h1>
+        <input type="text" placeholder="Client" id="customer">
+
+        <input type="number" placeholder="Payment Amount" step="2" id="paymentAmount">
+
+        <input type="text" placeholder="Location Code" id="locationCode">
+
+        <input type="date" placeholder="Deposit Date" id="depositDate">
+
+        <button type="button" onclick="depositInformation();">Record</button>
+    </div>
+</body>
+</html>
